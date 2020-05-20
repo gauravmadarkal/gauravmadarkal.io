@@ -1418,7 +1418,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 27, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text {
-    padding: 130px 0;
+    padding: 30px 0;
   }
 }
 
@@ -1440,29 +1440,43 @@ h3 {
     padding: 130px 0;
   }
 }
-
 /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 80px;
-  text-transform: capitalize;
-  font-weight: 300;
-  line-height: 90px;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 10px;
   color: #fff;
   margin-bottom: 55px;
+  text-align:left;
+  width:80% !important;
 }
 
 /* line 52, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 span {
   color: #DB9A64;
+  font-size: 20px;
 }
-
+@media (max-width: 767px) {
+  /* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
+	  .slider_area .single_slider .slider_text h3 span {
+	  width:100%;
+	}
+}
+@media (max-width: 1080px) {
+  /* line 35, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
+	  .slider_area .single_slider .slider_text h3 span {
+	  
+	}
+}
 @media (max-width: 767px) {
   /* line 44, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 30px;
     margin-bottom: 30px;
-    line-height: 45px;
+    line-height: 20px;
+	
+	
   }
 }
 
@@ -1507,7 +1521,6 @@ h3 {
 .slider_area .single_slider .my_img {
   position: absolute;
   right: 0;
-  bottom: 0;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1520,6 +1533,16 @@ h3 {
 /* line 91, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .my_img img {
   width: 100%;
+}
+
+@media screen  and (max-width: 500px){
+	.slider_area .single_slider .my_img {
+		margin: -10px auto 0;
+		width: 90%;
+		display: block;
+		position: inherit;
+		margin-top: 80px;
+	}
 }
 
 /* line 2, ../../Arafath/CL/Cl November/228. Resume-02/HTML/scss/_about.scss */
